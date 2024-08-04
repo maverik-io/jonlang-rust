@@ -1,0 +1,8 @@
+hi, jon!
+jon, say "BMI Calculator"!
+jon, say "Height in meters: " and read into height!
+jon, say "Weight in kg: " and read into weight!
+jon, remember that bmi will be weight by height!
+jon, remember that bmi will be bmi by height!
+jon, say "Your BMI is :" and read aloud bmi!
+bye, jon!
