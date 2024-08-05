@@ -12,9 +12,11 @@ jonlang has pretty simple rules -:
 | Command  | Description | Usage Examples |
 |-|-|-|
 |say \<msg>      | prints messages onto the console| `jon, say "Hello, World" !`|
-say \<msg> and read into \<varname>| prints a prompt onto the console and gets input into the specified variable| `jon, say "Name: " and read into name !`|
+say \<msg> and read into \<varname>| prints a prompt onto the console and gets input into the specified variable| `jon, say "Name: " and read into name as text!`|
 say \<msg> and read aloud \<varname> | prints a message and the value of a variable | `jon, say "Your name is :" and read aloud name !`|
 ---
+> [!TIP]
+> The read into operation needs a type that can be `number` or `text` 
 
 ### `remember` - variable control
 | Command | Description | Usage Examples |
